@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{padding: 100px;}
+			.tabs{
+				overflow: auto;
+			}
+			li{
+				float: left;
+				list-style: none;
+				padding: 10px;
+				border: 1px solid #556B2F;
+				margin-right: -1px;
+				cursor: pointer;
+			}
+			li.active{
+				background: #CCCCCC;
+				color: #FFFFFF;
+			}
+			.large_box{
+				position: relative;
+			}
+			.box{
+				position: absolute;
+				left: 0px;
+				top: -1px;
+				border: 1px solid #556B2F;
+				height: 300px;
+				width: 500px;
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="tabs">
+			<li class="active" dataid="box01">标签1</li>
+			<li dataid="box02">标签2</li>
+			<li dataid="box03">标签3</li>
+		</ul>
+		<div class="large_box">
+			<div class="box" id="box01">
+				<h2>标签1显示的内容</h2>
+				<p><br />详细内容</p>
+			</div>
+			<div class="box" id="box02" style="display: none;">
+				<h2>标签2显示的内容</h2>
+				<p><br />详细内容</p>
+			</div>
+			<div class="box" id="box03" style="display: none;">
+				<h2>标签3显示的内容</h2>
+				<p><br />详细内容</p>
+			</div>
+		</div>
+		
+	</body>
+	<script>
+		var list=document.getElementsByTagName("li");
+		for (var i=0;i<list          .length;i++){
+			list[i].onclick=function(){
+				var id=this.getAttribute("dataid");
+				var boxs=document.getElementsByClassName("box");
+				for(var j=0;j<boxs.length;j++){
+					if(boxs[j].id==id){
+						boxs[j].style.display="block";
+					}else{
+						boxs[j].style.display="none";
+					}
+					list[j].removeAttribute("class");
+					this.setAttribute("class","active");
+				}
+			}
+		}
+	</script>
+</html>
