@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>仙居</title>
+		<link type="text/css" href="../../public/css/login.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="head"><span  class="back" ><img src="../../public/img/nav_back_icon@2x.png"/></span>登录</div>
+		<div class="login_box">
+			<div class="zh"><span class="img"><img src="../../public/img/content_ID_icon@2x.png"></span>
+				<span class="pa">帐号：<input type="text" placeholder="请输入您的手机号" id="user"></span></div>
+			<div class="zh"><span class="img2"><img src="../../public/img/content_password_icon@2x.png" ></span>
+				<span class="pa">密码：<input type="password" placeholder="请输入您的帐号密码" id="pas"></span></div>
+		</div>
+		<div class="dl">登录</div>
+		<div class="down"><span class="reg">注册</span><span class="wjmm">忘记密码</span></div>
+		<script>
+			var user=document.getElementById("user");
+			var pas=document.getElementById("pas");
+			var btn=document.getElementsByClassName("dl")[0];
+			
+			function blurRequire(){
+					if(!user.value || !pas.value ){
+						btn.style.background="#ccc";
+					}else{
+						btn.style.background="orangered";
+					}
+				}
+			
+			user.onblur=blurRequire
+			pas.onblur=blurRequire
+
+			
+		</script>
+	</body>
+	
+</html>

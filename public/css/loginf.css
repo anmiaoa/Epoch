@@ -1,0 +1,27 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #F5EEEA;
+}
+.tub{
+	
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -45px;
+	top: 28%;
+}
+.tub img{
+	width: 95px;
+	height: 95px;
+}
+.foot{
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	text-align: center;
+	left:50% ;
+	margin-left: -50px;
+	position: absolute;
+	bottom: 15px;
+	color: #7D7B7B;
+}

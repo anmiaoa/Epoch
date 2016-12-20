@@ -1,0 +1,195 @@
+.tubiao{
+	padding: 40px;
+	width: 25%;
+	height: 100px;
+	position: relative;
+	margin: 0 auto;
+}
+.tubiao img{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 65px;
+	height: 65px;
+	text-align: center;
+}
+.phone{
+	color: #787878;
+	padding-right: 10px;
+	width: 80px;
+}
+.ban{
+	position: absolute;
+	top: 116px;
+	left: 68px;
+	font-size: 8px;
+	color: #787878;
+}
+.footer{
+	position: absolute;
+	bottom: 40px;
+	width: 60%;
+	text-align: center;
+	font-size: 10px;
+	color: #787878;
+	left: 50%;
+	transform: translate(-50%);
+}
+.zhezhao{
+	position: absolute;
+	top: 0;
+	
+	background: rgba(255,255,255,0.3);
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	background: #000000;
+}
+.qingli{
+	position: absolute;
+	top: 250px;
+	width: 240px;
+	height: 100px;
+	background:#fff ;
+	border-radius: 10px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.ti1{
+	text-align: center;
+	line-height: 50px;
+	font-size: 12px;
+	border-bottom:1px solid #EEEEF1 ;
+	padding: 5px 0;
+}
+.qq{
+	overflow: hidden;
+	
+}
+.cancel{
+	color: #787878;
+	font-size: 14px;
+	border-right: 1px solid #eeeef1;
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+	height: 37px;
+	margin: 0 auto;
+	
+	line-height: 37px;
+	
+}
+.sure{
+	color: #EC631B;
+	font-size: 14px;
+	width: 49%;
+	text-align: center;
+	display: inline-block;
+	
+	height: 37px;
+	margin: 0 auto;
+}
+.neck{
+	margin-top: 6px;
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	height: 40px;
+}
+.need{
+	float: left;
+	color: coral;
+	display: block;
+	width: 49%;
+	height: 96%;
+	line-height: 40px;
+	position: relative;
+	border-bottom: 2px solid coral;
+}
+.need:after{
+	content:"";
+	z-index: 5;
+	position: absolute;
+	top: 8px;
+	left: 99%;
+	width: 1px;
+	height: 24px;
+	background: #EBEBEE;
+}
+.neck .house{
+	
+	
+	width: 49%;
+	height: 98%;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	float: right;
+}
+.con{
+	width: 88%;
+	background: #fff;
+	padding: 12px;
+	margin: 0 auto;
+	margin-top: 12px;
+	
+	border-radius: 3px;
+}
+.con-one{
+	border-bottom: 1px dotted #E4E5E8;
+	overflow: hidden;
+}
+.con-one .left{
+	line-height: 40px;
+	
+}
+.con-one .right{
+	vertical-align: bottom;
+	display: inline-block;
+	background: #0193E6;
+	text-align: center;
+	border-radius: 3px;
+	float: right;
+	font-size: 6px;
+	color: #fff;
+	width: 45px;
+	line-height: 22px;
+	margin-top: 7px;
+}
+.con-two{
+	padding: 10px;
+	font-size: 10px;
+	height: 30px;
+}
+.con-three{
+	width: 100%;
+	position: relative;
+	height: 25px;
+}
+.con-three .m{
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	background: #E4E5E8;
+	border-radius:3px ;
+	margin: 0 auto;
+	font-size: 8px;
+	top: 1px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.con-three .right{
+	
+	display: block;
+	position: absolute;
+	font-size: 6px;
+	top: 7px;
+	right: 0;
+	color: #B6B6B6;
+}

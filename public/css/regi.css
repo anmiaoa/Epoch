@@ -1,0 +1,178 @@
+.sf{
+	padding: 10px;
+}
+.yz{
+	padding: 10px;
+	
+}
+.yz .img2{
+	margin-left: 1px;
+}
+.yz .img2 img{
+	width: 12px;
+	height: 15;
+}
+.yz .pa{
+	padding-left: 6px;
+	overflow: hidden;
+}
+.sf{
+	padding: 10px;
+	position: relative;
+}
+
+.sf .img2 img{
+	width: 20px;
+	height: 20px;
+}
+.sf .pa{
+	padding-left: 6px;
+}
+.sfp{
+	margin-left: 8px;
+}
+.hq{
+	display: block;
+	float: right;
+	font-size: 10px;
+	width: 6em;
+	color: #fff;
+	background: #EA5404;
+	line-height: 20px;
+	text-align: center;
+	padding: 2px;
+	border-radius: 5px;
+}
+.xlf{
+	margin-left: 85px;
+}
+.ty{
+	position: absolute;
+	width: 220px;
+	top: 400px;
+	font-size: 12px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.xy a{
+	text-decoration: underline;
+	color: #EB8047;
+	
+}
+.sfselect{
+	position: absolute;
+	top: 32px;
+	left: 300px;
+	background: #A3A3A3;
+	color: #fff;
+	font-size: 14px;
+	display: none;
+	border-radius: 5px;
+	z-index: 5;
+}
+.sfselect ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.sfselect ul li{
+	border-bottom: 1px solid #E0E0E0;
+	padding: 5px 10px;
+}
+.sfselect ul li:nth-last-child{
+	border: none;
+}
+.sf:hover .sfselect{
+	display: block;
+}
+.tian{
+	padding: 6px;
+	color: #B8B8B8;
+	font-size: 12px;
+}
+.content{
+	padding: 10px;
+	background: #fff;
+}
+.touxiang{
+	margin: 0 auto;
+	font-size: 12px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #878787;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+}
+.hengxian{
+	width: 100px;
+	height: 10px;
+	border-bottom: 1px solid #E6E6E6;
+	margin: 0 auto;
+	
+}
+.text-content{
+	width: 240px;
+	margin-top: 10px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+.text input{
+	box-shadow: inset -1px 1px 1px #E6E6E6; 
+	border-radius: 3px;
+	width: 240px;
+	line-height: 20px;
+	padding: 5px;
+	background: #EFEFF4;
+	border: none;
+	margin-top: 4px;
+	outline: none;
+	
+}
+.mingpian{
+	width: 100px;
+	height: 60px;
+	background: #878787;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.zs{
+	background: #fff;
+	padding: 10px;
+}
+.qgzs{
+	display: block;
+	width: 100px;
+	height: 60px;
+	background: #878787;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 auto;
+	
+	border-radius: 5px;
+}
+.btn{
+	margin-top: 40px;
+}
+.btn button{
+	margin-left: 50%;
+	transform: translate(-50%);
+	border: none;
+	width: 90%;
+	padding:8px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	background: #EA5404;
+	font-weight: bold;
+	border-radius: 6px;
+}

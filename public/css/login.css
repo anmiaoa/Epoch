@@ -1,0 +1,106 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #EFEFF4;
+	font-family: sans-serif;
+}
+.head{
+	height: 50px;
+	background: #fff;
+	color: #EA5404;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+}
+.head .back{
+	position: absolute;
+	left: 15px;
+	
+}
+.head .back img{
+	width: 10px;
+	height: 15px;
+	
+}
+.login_box{
+	margin-top: 20px;
+	background: #fff;
+	font-size: 16px;
+	
+}
+.login_box .zh .img img{
+	width: 20px;
+	height: 20px;
+	
+}
+.login_box .zh img{
+	width: 18px;
+	height: 21px;
+	
+}
+.login_box .zh{
+	font-size: 18px;
+	padding: 10px;
+	height: 26px;
+	width: 100%;
+	overflow: hidden;
+}
+.pa{
+	margin-left: 10px;
+	
+}
+
+.login_box .img2 img{
+	width: 18px;
+	height: 21px;
+}
+.login_box input{
+	border: 0;
+	color: #B4B4B4;
+	outline: 0;
+}
+
+.img{
+	display: block;
+	float: left;
+	margin-top: 2px;
+}
+.img2{
+	display: block;
+	float: left;
+	margin-top: 1px;
+}
+.dl{
+	position: absolute;
+	transform: translate(-50%);
+	margin-top: 45px;
+	background: #C7C7C7;
+	width: 90%;
+	left: 50%;
+	color: #FCFCFC;
+	font-size: 16px;
+	text-align: center;
+	line-height: 42px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.down{position: absolute;
+left: 50%;
+transform: translate(-50%);
+	margin-top: 100px;
+	width: 80%;
+	margin-top: 100px;
+	color: orange;
+	line-height: 42px;
+	font-size: 14px;
+	overflow: hidden;
+}
+.reg{
+	float: left;
+}
+.wjmm{
+	float: right;
+}
+
